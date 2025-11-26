@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eceeea;
+  padding: 12px 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.nav-icons img {
+  width: 32px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column ;
+  margin-top: 50px;
+  background-color: #eceeea;
+}
